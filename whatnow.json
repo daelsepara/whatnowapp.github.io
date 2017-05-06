@@ -33,7 +33,7 @@
 
 		"artsy": [{
 			"id": 4,
-			"name": "ProWorkout Dragør",
+			"name": "ProWorkout is your new training center founded by the owners of Dragør Fitness and ProTreatment (one of Denmark's most well-liked physiotherapy clinics). At ProWorkout we focus on proper training, and with us there is room for everyone! Regardless of activity and level of training.",
 			"description": "Fitnesscenter",
 			"rating": 4.9,
 			"distance": 1.43351008268184,
@@ -154,7 +154,7 @@
 		}, {
 			"id": 17,
 			"name": "Papas Pizza",
-			"description": "Er du til god, frisk og velsmagende mad? \nSå kom og få en bid af himlen på Viborgvej 144 hvor vi giver dig en smagsoplevelse du ikke finder andre steder! ",
+			"description": "Are you good, healthy and tasty food? So come and have a bite of heaven on Viborgvej 144 where we give you a taste experience you will not find anywhere else!",
 			"rating": 5,
 			"distance": 0.420093470126601,
 			"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.50.50/p50x50/1897870_648544975193320_1714430451_n.jpg?oh=05cbfe0422a19d91d9a766c97e5b8122&oe=597430BF",
@@ -181,6 +181,7 @@
 		}, {
 			"id": 20,
 			"name": "Slice århus",
+			"description": "Slice is one of the few places in Denmark serving Manakish. Come and try the city's best breakfast with us.",
 			"rating": 4.8,
 			"distance": 0.464014913319428,
 			"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/1532149_556867527741745_1235092849_n.jpg?oh=42d6e9846a4b82624668438693c23e72&oe=598085CE",
@@ -189,7 +190,7 @@
 		}, {
 			"id": 21,
 			"name": "Info-teria Pedersminde",
-			"description": "Velkommen til Pedersminde\nStedet hvor du får noget dejligt mad lavet af vores søde personale og kan holde et lille hvil fra din køretur",
+			"description": "Welcome to Pedersminde. The place where you get some nice food made by our sweet staff and can keep a little rest from your drive.",
 			"distance": 0.0195486652226235,
 			"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.50.50/p50x50/10616055_1463476927268437_6161705706070247642_n.jpg?oh=1daa49096a9983599ca1d82248b55a9c&oe=597EF7B3",
 			"crowdedness": 226,
@@ -251,6 +252,7 @@
 		}, {
 			"id": 29,
 			"name": "Aarhus Konditori",
+			"description": "We strive every day to bake bread of the highest quality for both the healthy lifestyle and the sweet tooth. And we keep the fan high for the precious craftsmanship and, preferably, keep it from scratch with the best ingredients and without too many frills. Why? Because we love to see the smile on our customers' faces when they look, smells and tastes the result. It is the best feeling in the world.",
 			"rating": 5,
 			"distance": 0.829731153027013,
 			"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.50.50/p50x50/12249697_1639480916316226_1677311643581369594_n.jpg?oh=65a4c7d94bd08b2f0ac4b0867f090868&oe=59792CE0",
@@ -315,7 +317,7 @@
 		}, {
 			"id": 36,
 			"name": "Vester Gasværk",
-			"description": "Information om teaterforeningen Vester Gasværks aktiviteter",
+			"description": "Vester Gasværk is a group of crazy and shy active music, theater and revered people in Brabrand, who have performed for many years for great pleasure for themselves and others.",
 			"rating": 4.8,
 			"distance": 1.05927394087891,
 			"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/557303_423849017652524_601510671_n.jpg?oh=ffb4b442e931f61724b393be5a68fe98&oe=598425A7",
@@ -412,7 +414,7 @@
 		"hungry": [{
 			"id": 46,
 			"name": "Divan Restaurant",
-			"description": "Velkommen til Divan Restaurant. Vi tilbyder ægte tyrkiske specialiteter, i form af de bedste kødretter, friske råvarer, og hjemmebagt brød . ",
+			"description": "Welcome to Divan Restaurant. We offer genuine Turkish specialties, in the form of the best meat dishes, fresh produce, and homemade bread.",
 			"rating": 4.7,
 			"distance": 0.525533342641649,
 			"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/c4.0.50.50/p50x50/10516719_283803441821128_4941017465698948975_n.png?oh=023cc636458293bc3bc6325b70cb5535&oe=59B5F1F1",
@@ -643,7 +645,7 @@
 			}, {
 				"id": 71,
 				"name": "Auditoriet",
-				"description": "Interesseret i at spille en showcase på Auditoriet? Tilmeld jer her, så kontakter vi jer: \nhttp://podio.com/webforms/2480164/179835",
+				"description": "The auditorium is the new place in Frederiksberg, where you can experience and explore the new Danish music. There are a host of events and concerts, with a lot of different music.",
 				"rating": 3.8,
 				"distance": 0.294904628672516,
 				"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/c48.48.606.606/s50x50/530452_386085338149526_1984897850_n.jpg?oh=5eae62c51e57d04f41f3a2dcdf0b8841&oe=59775225",
@@ -652,7 +654,7 @@
 			}, {
 				"id": 72,
 				"name": "Koncertstationen",
-				"description": "Music at the Culture station",
+				"description": "The concert station is a association that works for more music experiences in Vanløse. The concerts are usually held at Vanløse Culture Station, just off the metro and S-trains.",
 				"rating": 4.4,
 				"distance": 0.412401400596236,
 				"picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/c3.41.255.255/s50x50/31859_127637177266559_229117_n.jpg?oh=fe808f516b0452b571fe787d1afb3db7&oe=59BCB218",
