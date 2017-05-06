@@ -1,0 +1,41 @@
+.dropdown-menu>li>a {
+    display: inline;
+    padding-left: 0;
+}
+
+.btn {
+    text-align: left;
+}
+
+.jumbotron {
+    background-color: #f0ad4e;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+.full-screen {
+    background-color: #f0ad4e;
+    height: 100vh;
+    width: 100vw;
+    display: table;
+}
+
+.full-screen .full-screen-body {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.full-screen .full-screen-body h1 {
+    color: #fff;
+}
+
+.full-screen .full-screen-body .btn {
+    border: 2px solid #fff;
+}
+
+iframe {
+    max-width: 100%;
+    background-color: #eee;
+}
