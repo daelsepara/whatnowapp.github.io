@@ -1,6 +1,16 @@
+.dropdown-menu>li {
+    height: 50px;
+}
+
 .dropdown-menu>li>a {
-    display: inline;
-    padding-left: 0;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #eee;
 }
 
 .btn {
