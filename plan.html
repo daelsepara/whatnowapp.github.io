@@ -17,11 +17,11 @@
             <form>
                 <div class="form-group" id="travellerType">
                     <p class="lead">
-                        <label for="travel-group">How many are you travelling?</label>
+                        <label for="travel-group">How are you travelling?</label>
                     </p>
                     <div class="dropdown">
                         <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="travel-group" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span id="travellerTypeInput"><img src="images/traveller.png" /> Let's talk numbers.</span> <span class="caret"></span>
+                            <span id="travellerTypeInput"><img src="images/traveller.png" /> Choose one</span> <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="travel-group">
                             <li><a id="travellerType-female" href="javascript:setTravellerType('female')"><img src="images/female.png" /> All by myself - lady</a></li>
@@ -33,13 +33,29 @@
                     </div>
                 </div>
                 <hr />
+                <div class="form-group" id="timeType">
+                    <p class="lead">
+                        <label for="travel-time">How much time do you have?</label>
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="travel-time" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span id="timeTypeInput"><img src="images/time.png" /> Choose one</span> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="travel-time">
+                            <li><a id="timeType-hour" href="javascript:setTimeType('hour')"><img src="images/hour.png" /> About an hour</a></li>
+                            <li><a id="timeType-hours" href="javascript:setTimeType('hours')"><img src="images/hours.png" /> A few hours</a></li>
+                            <li><a id="timeType-day" href="javascript:setTimeType('day')"><img src="images/day.png" /> All day</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
                 <div class="form-group" id="moodType">
                     <p class="lead">
-                        <label for="travel-mood">What is your mood now?</label>
+                        <label for="travel-mood">How do you feel?</label>
                     </p>
                     <div class="dropdown">
                         <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="travel-mood" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span id="moodTypeInput"><img src="images/mood.png" /> So you'll feel awesome.</span> <span class="caret"></span>
+                            <span id="moodTypeInput"><img src="images/mood.png" /> Choose one.</span> <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="travel-mood">
                             <li><a id="moodType-happy" href="javascript:setMoodType('happy')"><img src="images/happy.png" /> Happy</a></li>

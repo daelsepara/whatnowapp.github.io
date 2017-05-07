@@ -12,6 +12,7 @@ $(document).ready(function() {
     }
 
     sessionStorage.removeItem('moodType');
+    sessionStorage.removeItem('timeType');
     sessionStorage.removeItem('transportType');
 });
 

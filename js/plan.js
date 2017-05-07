@@ -1,6 +1,7 @@
 $(document).ready(function() {
     onUpdateTravellerType();
     onUpdateMoodType();
+    onUpdateTimeType();
     onUpdateWeatherType();
 });
 
@@ -30,6 +31,19 @@ function onUpdateMoodType() {
     }
 }
 
+function onUpdateTimeType() {
+    var timeType = null;
+    var storedTimeType = sessionStorage.getItem('timeType');
+    
+    if (storedTimeType) {
+        timeType = storedTimeType;
+    }
+    
+    if (timeType) {
+        $('#timeTypeInput').html($('#timeType-' + timeType).html());
+    }
+}
+
 function onUpdateWeatherType() {
     var weatherType = 'sunny';
     var storedWeatherType = sessionStorage.getItem('weatherType');
@@ -54,6 +68,11 @@ function setMoodType(moodType) {
     onUpdateMoodType();
 }
 
+function setTimeType(timeType) {
+    sessionStorage.setItem('timeType', timeType);
+    onUpdateTimeType();
+}
+
 function moveForward() {
     var storedWeatherType = sessionStorage.getItem('weatherType');
     if (!storedWeatherType) {
@@ -70,6 +89,12 @@ function moveForward() {
     var storedMoodType = sessionStorage.getItem('moodType');
     if (!storedMoodType) {
         alert('The stored mood type was not set.');
+        return;
+    }
+
+    var storedTimeType = sessionStorage.getItem('timeType');
+    if (!storedTimeType) {
+        alert('The stored time type was not set.');
         return;
     }
 
