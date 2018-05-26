@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>What Now? / plan</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>1/3: Plan</h1>
+            </div>
+        </div>
+        <div class="container">
+            <form>
+                <div class="form-group" id="travellerType">
+                    <p class="lead">
+                        <label for="travel-group">How are you travelling?</label>
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="travel-group" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span id="travellerTypeInput"><img src="images/traveller.png" /> Choose one</span> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="travel-group">
+                            <li><a id="travellerType-female" href="javascript:setTravellerType('female')"><img src="images/female.png" /> All by myself - lady</a></li>
+                            <li><a id="travellerType-male" href="javascript:setTravellerType('male')"><img src="images/male.png" /> All by myself - gentleman</a></li>
+                            <li><a id="travellerType-couple" href="javascript:setTravellerType('couple')"><img src="images/couple.png" /> With my significant other</a></li>
+                            <li><a id="travellerType-family" href="javascript:setTravellerType('family')"><img src="images/family.png" /> With my family</a></li>
+                            <li><a id="travellerType-dog" href="javascript:setTravellerType('dog')"><img src="images/dog.png" /> With my family and Max</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div class="form-group" id="timeType">
+                    <p class="lead">
+                        <label for="travel-time">How much time do you have?</label>
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="travel-time" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span id="timeTypeInput"><img src="images/time.png" /> Choose one</span> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="travel-time">
+                            <li><a id="timeType-hour" href="javascript:setTimeType('hour')"><img src="images/hour.png" /> About an hour</a></li>
+                            <li><a id="timeType-hours" href="javascript:setTimeType('hours')"><img src="images/hours.png" /> A few hours</a></li>
+                            <li><a id="timeType-day" href="javascript:setTimeType('day')"><img src="images/day.png" /> All day</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div class="form-group" id="moodType">
+                    <p class="lead">
+                        <label for="travel-mood">How do you feel?</label>
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="travel-mood" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span id="moodTypeInput"><img src="images/mood.png" /> Choose one.</span> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="travel-mood">
+                            <li><a id="moodType-happy" href="javascript:setMoodType('happy')"><img src="images/happy.png" /> Happy</a></li>
+                            <li><a id="moodType-artsy" href="javascript:setMoodType('artsy')"><img src="images/artsy.png" /> Artsy</a></li>
+                            <li><a id="moodType-adventurous" href="javascript:setMoodType('adventurous')"><img src="images/adventurous.png" /> Adventurous</a></li>
+                            <li><a id="moodType-hungry" href="javascript:setMoodType('hungry')"><img src="images/hungry.png" /> Hungry</a></li>
+                            <li><a id="moodType-tired" href="javascript:setMoodType('tired')"><img src="images/tired.png" /> Tired</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <p class="lead">
+                        <label for="travel-weather">For the outdoorsy</label>
+                    </p>
+                    <p class="lead weatherType" id="weatherType-sunny">
+                        <img src="images/sunny.png" /> Look up the sky, it's sunny.
+                    </p>
+                    <p class="lead weatherType" id="weatherType-rainy">
+                        <img src="images/rainy.png" /> Time for singing in the rain?
+                    </p>
+                </div>
+                <hr />
+                <div class="text-right">
+                    <a href="javascript:moveForward()" class="btn btn-primary btn-warning btn-lg">Find places</a>
+                </div>
+            </form>
+        </div>
+        <hr />
+        <div class="container">
+            <p class="text-right">
+                <img src="images/dislike.png" style="width: 16px;" /> this? <a href="index.html">Go back</a>
+            </p>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plan.js"></script>
+    </body>
+</html>
